@@ -1,0 +1,9 @@
+schedule.cron: 0 0 6 * * ?
+login.url: "http://localhost:8080/connect?username={userName}&password={userPassword}"
+checkin.url: "http://localhost:8080/checkin"
+book.url: "http://localhost:8080/book?id={resourceId}&from={fromDate}&to={toDate}"
+resourceId.list:
+   - 10
+   - 20
+   - 30
+   - 40
